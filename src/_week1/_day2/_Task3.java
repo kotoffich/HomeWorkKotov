@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by kotoffich on 22.01.2017.
  */
-public class _Task2 {
+public class _Task3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -23,18 +23,20 @@ public class _Task2 {
         System.out.println("4.Country:");
         String country = scanner.nextLine();
 
-        if ((shop.equals("eco") || shop.equals("silpo")) && fresh == true && bottle == false && !country.equals("rus")){
-            System.out.println("Good");
+        boolean result = testMyMilk(country, shop, fresh, bottle);
+        if (result){
+            System.out.println("NICE");
         }
 
-        /*System.out.println("5.Exit");*/
+    }
 
+    public static boolean testMyMilk(String country, String shop, boolean fresh, boolean bottle) {
+        if ((shop.equals("eco") || shop.equals("silpo")) && fresh == true && bottle == false && !country.equals("rus"))
+            return true;
+        else {
+            return false;
 
-
-
-
-
-
+        }
 
 
     }
