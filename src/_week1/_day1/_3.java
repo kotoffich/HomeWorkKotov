@@ -1,3 +1,5 @@
+package _week1._day1;
+
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.util.Scanner;
