@@ -7,16 +7,19 @@ import java.util.Scanner;
 /**
  * Created by kotoffich on 21.01.2017.
  */
-public class _3 {
+public class _3Q {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter line");
         String line = sc.nextLine();
+        System.out.println("Enter name");
+        String name = sc.nextLine();
         System.out.println("Enter number");
         int i = sc.nextInt();
         test3(line, i);
+//        test2(String +);
 
     }
 

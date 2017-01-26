@@ -3,7 +3,7 @@ package _week1._day1;
 /**
  * Created by kotoffich on 21.01.2017.
  */
-public class _1 {
+public class _1Q {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         int a = 5;
@@ -12,7 +12,7 @@ public class _1 {
 
         int result1 = sum(result, 100);
 
-        System.out.println(result);
+        System.out.println(result1);
     }
 
     public static int sum (int a, int b){

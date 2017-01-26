@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by kotoffich on 21.01.2017.
  */
-public class _4 {
+public class _4Q {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

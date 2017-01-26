@@ -3,7 +3,7 @@ package _week1._day1;
 /**
  * Created by kotoffich on 21.01.2017.
  */
-public class _2 {
+public class _2Q {
     public static void main(String[] args) {
         String name = "Kotov";
 
