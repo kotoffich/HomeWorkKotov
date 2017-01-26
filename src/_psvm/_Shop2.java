@@ -12,6 +12,7 @@ public class _Shop2 {
         int age = scan.nextInt();
         System.out.println("Money?");
         double money = scan.nextDouble();
+        scan.nextLine();
         System.out.println("Name?");
         String name = scan.nextLine();
         System.out.println("Aduld?");
