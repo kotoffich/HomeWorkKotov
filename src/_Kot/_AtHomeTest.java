@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by kotoffich on 24.01.2017.
  */
-public class _AtHome {
+public class _AtHomeTest {
     public static void main(String[] args) {
         Scanner scan = new Scanner (System.in);
         double a,b,c;
