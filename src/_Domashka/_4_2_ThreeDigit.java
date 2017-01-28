@@ -18,12 +18,27 @@ public class _4_2_ThreeDigit {
         System.out.println("Enter c");
         int c = sc.nextInt();
 
-        if (a > b && a > c);{
-            System.out.println("BIG " + a);}
-        if (b > a && b > c);{
-            System.out.println("BIG " + b);}
-        if (c > a && c > b);{
-            System.out.println("BIG " + c);}
+        if (a > b && a > c){
+            System.out.println("BIG " + a);
+        }
+        if (b > a && b > c){
+            System.out.println("BIG " + b);
+        }
+        if (c > a && c > b){
+            System.out.println("BIG " + c);
+        }
+
+        if (a < b && a < c){
+            System.out.println("SMALL " + a);
+        }
+        if (b < a && b < c){
+            System.out.println("SMALL " + b);
+        }
+        if (c < a && c < b){
+            System.out.println("SMALL " + c);
+        }
+// как уменьшить?
+
 
     }
 

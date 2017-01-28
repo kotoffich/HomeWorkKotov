@@ -12,18 +12,19 @@ public class _4_1_AtHome {
 
         System.out.println("Enter hours");
         int i = sc.nextInt();
-        test(i);
+//        test(i);
 
-    }
+//    }
 
-    public static void test(int i) {
+//    public static void test(int i) {
         if (i <= 18 && i >= 9) {
             System.out.println("Я на работе");
+        }
+        else if (i >= 24){
+            System.out.println("Error");
         } else {
             System.out.println("Я дома");
-//        }
-//        else (i => 24){
-//            System.out.println("Error");
         }
+
     }
 }
